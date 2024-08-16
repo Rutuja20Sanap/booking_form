@@ -1,5 +1,8 @@
-import { createRoot } from "react-dom/client";
+import ReactDOM from 'react-dom/client';
+import HotelBooking from "./app";
 
-const Root  = createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-Root.render(<h1>Booking Form</h1>)
+root.render(<h1>
+    <HotelBooking/>
+    </h1>)
