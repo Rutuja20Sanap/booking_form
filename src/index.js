@@ -4,5 +4,5 @@ import HotelBooking from "./app";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<h1>
-    <HotelBooking/>
+    <HotelBooking name="Veggis" city = "Mumbai"/>
     </h1>)
